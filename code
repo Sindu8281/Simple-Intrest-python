@@ -1,0 +1,11 @@
+The program calculates simple interest for a given period of time and rate of interest.
+
+#Simple Interest calculation program
+#Input the principal amount
+amount = input("Enter the principal amount:")
+#Input the time in years
+time = input("Enter the time in years:")
+#Input the rate of interest
+rate = input("Enter the rate of interest:")
+#Calculate the simple interest
+interest = amount * time * rate / 100
